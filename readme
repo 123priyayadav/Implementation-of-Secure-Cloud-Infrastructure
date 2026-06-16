@@ -1,0 +1,209 @@
+# Implementation of Secure Cloud Infrastructure Using Microsoft Azure
+
+## 📌 Project Overview
+
+This project demonstrates the implementation of a **Secure Cloud Infrastructure** for a small company using **Microsoft Azure**. The objective is to provide a scalable, secure, and cost-effective cloud environment by utilizing various Azure services.
+
+Traditional on-premises infrastructure requires significant investment in physical hardware and maintenance. Microsoft Azure offers cloud-based solutions that improve scalability, security, resource management, and remote accessibility.
+
+This project was developed as part of the **INT327 - Cloud Infrastructure and Resource Management** course.
+
+---
+
+## 🎯 Objectives
+
+* Implement secure cloud resource management.
+* Provide centralized file storage.
+* Configure secure networking.
+* Manage user access using Role-Based Access Control (RBAC).
+* Build a scalable cloud infrastructure for small businesses.
+
+---
+
+## ☁️ Azure Services Used
+
+* Azure Resource Group
+* Azure Virtual Machine (VM)
+* Azure Storage Account
+* Azure Blob Storage
+* Azure Virtual Network (VNet)
+* Azure Role-Based Access Control (RBAC)
+
+---
+
+## 🏗 Project Architecture
+
+```text
+                    +----------------+
+                    |     Users      |
+                    +--------+-------+
+                             |
+                    +--------v-------+
+                    | Azure RBAC     |
+                    +--------+-------+
+                             |
+          +------------------+------------------+
+          |                                     |
++---------v---------+                +----------v---------+
+| Virtual Machine   |                | Storage Account    |
+| CompanyServerVM   |                | Blob Storage       |
++---------+---------+                +----------+---------+
+          |                                     |
+          +------------------+------------------+
+                             |
+                    +--------v-------+
+                    | Virtual Network|
+                    +----------------+
+```
+
+---
+
+## 🔄 Project Workflow
+
+1. Create a Resource Group.
+2. Deploy a Virtual Machine.
+3. Create a Storage Account.
+4. Create a Blob Container.
+5. Upload files to Blob Storage.
+6. Configure Virtual Network.
+7. Implement RBAC for secure access.
+
+---
+
+# Implementation Steps
+
+## Step 1: Create Resource Group
+
+A Resource Group named **CompanyInfraRG** was created to organize and manage Azure resources.
+
+**Output:** Resource Group created successfully.
+
+---
+
+## Step 2: Create Virtual Machine
+
+A Virtual Machine named **CompanyServerVM** was deployed to simulate a company server.
+
+**Output:** Virtual Machine deployed successfully.
+
+---
+
+## Step 3: Create Storage Account
+
+A Storage Account was created for secure storage of company data.
+
+**Output:** Storage Account created successfully.
+
+---
+
+## Step 4: Create Blob Container
+
+A Blob Container named **companyfiles** was created to manage uploaded files.
+
+**Output:** Blob Container created successfully.
+
+---
+
+## Step 5: Configure Virtual Network
+
+A Virtual Network (VNet) was configured to provide secure communication between Azure resources.
+
+**Output:** Virtual Network configured successfully.
+
+---
+
+## Step 6: Configure RBAC
+
+Role-Based Access Control (RBAC) was implemented to manage user permissions securely.
+
+**Output:** RBAC configured successfully.
+
+---
+
+## 📊 Results
+
+The following Azure resources were successfully implemented:
+
+* ✅ Resource Group
+* ✅ Virtual Machine
+* ✅ Storage Account
+* ✅ Blob Storage
+* ✅ Blob Container
+* ✅ Virtual Network
+* ✅ RBAC Configuration
+
+The infrastructure provides:
+
+* Secure resource management
+* Centralized storage
+* Secure networking
+* Controlled user access
+* Scalable cloud deployment
+
+---
+
+## 🔒 Security Features
+
+* Azure Role-Based Access Control (RBAC)
+* Secure Virtual Network configuration
+* Controlled storage access
+* Centralized resource management
+
+---
+
+## 💡 Advantages
+
+* Cost-effective infrastructure
+* High scalability
+* Secure data storage
+* Easy resource management
+* Remote accessibility
+* Improved reliability
+
+---
+
+## 📚 Technologies Used
+
+| Technology            | Purpose           |
+| --------------------- | ----------------- |
+| Microsoft Azure       | Cloud Platform    |
+| Azure VM              | Server Deployment |
+| Azure Storage Account | Data Storage      |
+| Azure Blob Storage    | File Management   |
+| Azure Virtual Network | Secure Networking |
+| Azure RBAC            | Access Management |
+
+---
+
+## 🎓 Academic Details
+
+**Course:** INT327 - Cloud Infrastructure and Resource Management
+
+**Project Title:** Implementation of Secure Cloud Infrastructure Using Microsoft Azure
+
+**University:** Lovely Professional University
+
+**Submitted By:** Priya Kumari
+
+**Registration Number:** 12309182
+
+**Section:** 323AF
+
+**Submitted To:** Dr. Pushpendra Ratam Verma
+
+---
+
+## ✅ Conclusion
+
+The project successfully implemented a secure cloud infrastructure using Microsoft Azure services. Various Azure resources, including Virtual Machine, Storage Account, Blob Storage, Virtual Network, and RBAC, were deployed and configured effectively.
+
+This project enhanced the understanding of practical cloud computing concepts, secure storage, networking, and access control mechanisms. The implemented infrastructure offers a secure, scalable, and cost-effective solution suitable for small business environments.
+
+---
+
+## 📖 References
+
+* Microsoft Azure Documentation
+* Microsoft Learn
+* Cloud Computing Academic Materials
+* Azure Portal Practical Guides
